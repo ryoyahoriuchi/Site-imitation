@@ -1,0 +1,113 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    text-align: center;
+  }
+  .main-header {
+    padding-bottom: 0%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+  }
+  /* ここから */
+  header {
+    background-color: #2B2B2B;
+    height: 50px;
+    width: 100%;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15px;
+  }
+  header ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header ul:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .left {
+    float: left;
+  } 
+  .right {
+    float: right;
+  }  
+  /* ここまでがheader部分の実装 */
+  .main-header{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+
+  }
+  .main-header img {
+    width: 13%;
+  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  }
+  .about {
+    margin: 0 auto;
+    min-height: 550px;
+    /*position: absolute;
+    bottom: 350px;
+    text-align: center; */
+  } 
+  .about h1{
+  /* About Achieve部分の実装 */
+    font-size: 1.5rem;
+  }
+  .about p{
+    font-size: 0.8rem;
+  }
+  /* ここから */
+  .function {
+    background-color: #D3D3D3;
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+  }
+  .function-images {
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+  }
+  .function-image {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+  }
+  /* ここまでがfunction部分の実装 */
+  footer {
+  /* footer部分の実装 */
+    height: 70px;
+    width: 100%;
+    background-color: #283A4B;
+    position: absolute;
+    bottom: 0;
+    display: table;
+  }
+  footer p {
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 1;
+    vertical-align: middle;
+    display: table-cell;
+  }
