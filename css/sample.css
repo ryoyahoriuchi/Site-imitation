@@ -66,9 +66,6 @@ html {
   .about {
     margin: 0 auto;
     min-height: 550px;
-    /*position: absolute;
-    bottom: 350px;
-    text-align: center; */
   } 
   .about h1{
   /* About Achieve部分の実装 */
